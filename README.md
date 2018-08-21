@@ -1,19 +1,11 @@
-Java Github API Demo
-====================
+Java Github Get Repo Description Demo
+=====================================
 
-Try use Java version of github-api to interact with github.
-
-Options:
-
-- <s>[kohsuke/github-api]<http://github-api.kohsuke.org/></s>: Bad documentation, hard to start
-- <s>[jcabi-github](https://github.com/jcabi/jcabi-github)</s>: Bad api define and documentation, hard to use
-- **[org.eclipse.egit.github.core](https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core)**: Good design and easy to use, recommend!
-
-Use [org.eclipse.egit.github.core](https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core) to interact with github.
+Use [org.eclipse.egit.github.core](https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core) to get the description of a repository from github.
 
 You need to create an access token in your github account, and create a `github-token.txt` in the root of your project, with the content of the token.
 
-Run Java files under the `demo` package in your IDE.
+Run `Hello.java` in your IDE.
 
 Attention
 ---------
